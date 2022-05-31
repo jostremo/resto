@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Resto</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><span>R</span>esto</a>
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Acceuil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+        <li><a href="#expert" onclick="toggleMenu();">Experts</a></li>
+        <li><a href="#temoignage" onclick="toggleMenu();">Temoignage</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <a href="#contact" class="btn-resa"onclick="toggleMenu();">Reservation</a>
+      </ul>
+    </header>
+    <section class="banniere" id="banniere">
+      <div class="contenu">
+        <h2>Que des plats délicieux</h2>
+        <p>
+          La bonne nourriture est une bénédiction incroyable. Chaque fois que
+          vous pouvez vous asseoir à table, manger des aliments savoureux et
+          entourés de personnes que vous aimez... c'est: Wow, la vie est belle.
+        </p>
+        <a href="#menu" class="btn1">Notre Menu</a>
+        <a href="#contact" class="btn2">Reservez votre table</a>
+      </div>
+    </section>
+    <section class="apropos" id="apropos">
+      <div class="row">
+        <div class="col50">
+          <h2 class="titre-texte"><span>A</span> propos</h2>
+          <p>
+            Notre brasserie propose des plateaux de fruits de mer à Paris, elle
+            a été créée en 1932 dans une ancienne grange à fourrage pour les
+            chevaux. Aujourd’hui, notre chef vous propose une cuisine
+            traditionnelle raffinée, élaborée avec des produits frais, de saison
+            dans un décor feutré, en plein cœur du 15ème arrondissement de
+            Paris. Une grande terrasse vous accueille en été et en hiver tout au
+            long de la journée. Un must : nos plateaux de fruits de mer ! Nous
+            avons le plaisir de vous proposer une large sélection de fruits de
+            mer frais, servis sur place ou à emporter. Dégustez-les chez nous
+            avec un verre de vin ou une coupe de Champagne dans une ambiance
+            décontractée et chic. Choisissez une de nos compositions ou créez
+            votre propre plateau, notre écailler sera ravi de vous conseiller.
+          </p>
+        </div>
+        <div class="col50">
+          <div class="img">
+            <img src="./img/salade4.jpg" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <div class="titre">
+        <h2 class="titre-texte">Nos <span>M</span>enus</h2>
+        <p>
+          Aujourd’hui, notre chef vous propose une cuisine traditionnelle
+          raffinée, élaborée avec des produits frais, de saison. Un must : nos
+          plateaux de fruits de mer ! Nous avons le plaisir de vous proposer une
+          large sélection de fruits de mer frais, servis sur place ou à
+          emporter. Choisissez une de nos compositions ou créez votre propre
+          plateau, notre écailler sera ravi de vous conseiller.
+        </p>
+      </div>
+      <div class="contenu">
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/fish.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Fish and chips</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/burger.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Burger</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/c3.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Pizza</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/c4.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Spécial Salade</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/c5.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Spécial Salade</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/c6.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Spécial Salade</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/c7.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Spécial Salade</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/c8.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Spécial Salade</h3>
+          </div>
+        </div>
+      </div>
+      <div class="titre">
+        <a href="#" class="btn1">Voir plus</a>
+      </div>
+    </section>
+    <section class="expert" id="expert">
+      <div class="titre">
+        <h2 class="titre-texte">Nos <span>E</span>xperts</h2>
+        <p>
+          Une équipe d'experts à votre service
+        </p>
+      </div>
+      <div class="contenu">
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/equipe1.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Franck LEROI</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/equipe2.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Franck LEROI</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/equipe3.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Franck LEROI</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="./img/equipe4.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Franck LEROI</h3>
+          </div>
+        </div>
+       </div>
+    </section>
+       <section class="temoignage" id="temoignage">
+        <div class="titre blanc">
+          <h2 class="titre-texte">Que disent nos <span>C</span>lients</h2>
+          <p>
+            Quelques temoignages de nos clients
+          </p>
+        </div>
+        <div class="contenu">
+          <div class="box">
+            <div class="imbox">
+              <img src="./img/t1.jpeg" alt="">
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi alias expedita aliquam maiores cum. Nihil ipsam eveniet ipsa quia, quo fugiat doloremque quas architecto consequatur est delectus, ratione voluptatibus!</p>
+              <h3>Franck LEROI</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imbox">
+              <img src="./img/t2.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi alias expedita aliquam maiores cum. Nihil ipsam eveniet ipsa quia, quo fugiat doloremque quas architecto consequatur est delectus, ratione voluptatibus!</p>
+              <h3>Franck LEROI</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imbox">
+              <img src="./img/t3.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi alias expedita aliquam maiores cum. Nihil ipsam eveniet ipsa quia, quo fugiat doloremque quas architecto consequatur est delectus, ratione voluptatibus!</p>
+              <h3>Franck LEROI</h3>
+            </div>
+          </div>
+          
+         </div>
+        </div>
+       </section>
+       <section class="contact" id="contact">
+         <div class="titre noir">
+           <h2 class="titre-text"><span>C</span>ontact</h2>
+           <p>Contactez nous, laissez nous votre avis, nous sommes là pour vous répondre.</p>
+         </div>
+         <div class="contactform">
+           <h3>Envoyer un message</h3>
+           <div class="inputboite">
+             <input type="text" placeholder="Nom">
+           </div>
+           <div class="inputboite">
+             <input type="text" placeholder="email">
+           </div>
+           <div class="inputboite">
+             <textarea placeholder="Message"></textarea>
+           </div>
+           <div class="inputboite">
+             <input type="submit" value="Envoyer">
+           </div>
+         </div>
+       </section>
+       <div class="copyright">
+         <p>copyright 2022 <a href="#">Rémy JOSTE </a>Tous droits réservés</p>
+       </div>
+       <script type="text/javascript">
+         window.addEventListener('scroll', function(){
+           const header = document.querySelector('header');
+           header.classList.toggle("sticky", window.scrollY > 0 );
+         });
+
+         function toggleMenu(){
+         const menuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+       </script>
+  </body>
+</html>
